@@ -7,6 +7,6 @@ let vapidkeys = {
 
 push.setVapidDetails("mailto:terence-calitz@outlook.com", vapidkeys.publicKey, vapidkeys.privateKey)
 
-let sub = {}
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/fokJUt7az08:APA91bGMC9IL74wwZxPECswr2xLd7HW_JZvqq8wUeVi0M6pFMS9iVaGPiOo4LEuFxtBsjJ9Obmm4NIecfEUaBh1LAiIN2yYTiWWIdaJzGV9i8LQBBo4gTsV0FvQbQid5ZNKCr-ygBEdE","expirationTime":null,"keys":{"p256dh":"BD4wa_gQIC6zrz5KVLQXhgBUU61QUIfQzv-hGvLLI-iPjlMOwguoqYoDHRAmc_HVRatlBNg2B83RegvTxjn3nnI","auth":"QwHclFVQKHTVo5pB1e28uw"}}
 
 push.sendNotification(sub, "Test Message")
